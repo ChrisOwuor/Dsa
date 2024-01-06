@@ -88,8 +88,6 @@ int main()
 
     myStack.pop();
     myStack.pop();
-    myStack.pop();
-    myStack.pop(); 
 
     return 0;
 }
