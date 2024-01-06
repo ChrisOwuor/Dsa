@@ -83,10 +83,11 @@ int main()
     myStack.push(10);
     myStack.push(20);
     myStack.push(30);
+    myStack.push(20);
+    myStack.push(30);
 
     cout << "Top element of the stack: " << myStack.peek() << endl;
 
-    myStack.pop();
     myStack.pop();
 
     return 0;
