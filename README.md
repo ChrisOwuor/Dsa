@@ -2,8 +2,7 @@
 
 ## Overview
 
-Welcome to the Data Structures and Algorithms course in C++. In this course, you will learn fundamental concepts of data structures and algorithms, as well as how to implement them using the C++ programming language. The course is designed to provide a strong foundation for problem-solving and algorithmic thinking.
-
+ Data Structures and Algorithms course in C++. Fundamental concepts of data structures and algorithms, as well as how to implement them using the C++ programming language. 
 ## Table of Contents
 
 1. [Introduction to Data Structures](#introduction-to-data-structures)
@@ -20,7 +19,7 @@ Welcome to the Data Structures and Algorithms course in C++. In this course, you
 ## Prerequisites
 
 - Basic knowledge of C++ programming language.
-- Understanding of basic programming constructs (variables, loops, conditionals).
+- Understanding of basic programming constructs (variables, loops, conditionals, functions).
 
 ## Course Content
 
