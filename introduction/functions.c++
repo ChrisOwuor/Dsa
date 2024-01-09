@@ -7,6 +7,7 @@ using namespace std;
 // main code foes here
 // return statement
 // }
+
 void print_name()
 {
     cout << "A void return type" << endl;
@@ -33,11 +34,18 @@ double print_double()
 }
 int add_numbers(int a, int b)
 {
+
     return a + b;
+}
+string print_string()
+{
+    string name;
+    cout << "enter your name" << endl;
+    cin >> name;
+    return name;
 }
 int main()
 {
-    // Simple cout statement
     cout << "home" << endl;
     char my_char = print_char();
     double my_double = print_double();
@@ -46,5 +54,7 @@ int main()
     int my_sum = add_numbers(2, 3);
     cout << my_sum << endl;
     print_name();
+    string my_name = print_string();
+    cout << "Your name is " << my_name << endl;
     return 0;
 }
