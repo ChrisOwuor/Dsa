@@ -26,7 +26,7 @@ int main()
      You can use the address-of operator & to get the address of a variable. For example:
      */
     int *ptr = &num;
-    /*In this case, ptr now points to the memory location where num is stored.
+    /*In this case, ptr now points  to or stores the memory location where num is stored.
      The &num expression retrieves the address of num, and it is assigned to ptr.
      */
     /*You can also access the value stored at the memory location pointed by a pointer using the dereference operator *. For example:

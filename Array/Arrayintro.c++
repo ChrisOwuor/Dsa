@@ -28,15 +28,22 @@ int del_item()
     int my_arr[5] = {10, 2, 3, 5, 4};
     return 0;
 }
+string modify_arr()
+{
+    string names[4] = {"chris", "sam", "jane"};
+    // cout << names[0] << endl;
+
+    return names[0];
+};
 void print_array()
 {
-    int my_arr[] = {1, 2, 3,4,5};
+    int my_arr[] = {1, 2, 3, 4, 5};
 
     for (int i = 0; i < 5; i++)
     {
-        cout << my_arr[i]<< " " ;
+        cout << my_arr[i] << " ";
     }
-    cout <<  endl;
+    cout << endl;
 }
 int main()
 {
@@ -44,6 +51,6 @@ int main()
     loop_array();
     print_array();
     cout << find_min() << endl;
-
+    cout << modify_arr() << endl;
     return 0;
 }
