@@ -45,6 +45,10 @@ void print_array()
     }
     cout << endl;
 }
+void intro()
+{
+    int my_arr[] = {3, 4};
+}
 int main()
 {
     cout << "Arrays " << endl;

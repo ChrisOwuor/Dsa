@@ -37,10 +37,10 @@ int main()
     This is done using the dereference operator *.
     */
     cout << *ptr << endl;
-    *ptr = 34;
+    // *ptr = 34;
     cout << ptr << endl;
 
-    cout << *ptr << endl;
+    // cout << *ptr << endl;
     /*
     In this case, *ptr retrieves the value stored at the memory location pointed by ptr, which is 10.
 
@@ -49,15 +49,15 @@ int main()
     It's important to note that when working with pointers, you need to be cautious to avoid common pitfalls like accessing invalid memory locations or causing memory leaks. Proper memory management is crucial to ensure the stability and efficiency of your programs.
 
     */
-    int arr[] = {1, 2, 3, 4, 5};
-    int *arr_ptr = arr; // Pointer to the first element of the array
-    cout << *arr_ptr << endl; // Output: 1
-    cout << arr_ptr << endl;
-    arr_ptr++;                // Move the pointer to the next element
-    cout << *arr_ptr << endl; // Output: 2
-    cout << arr_ptr << endl;
-    arr_ptr += 2;             // Move the pointer two elements ahead
-    cout << *arr_ptr << endl; // Output: 4
-    cout << arr_ptr << endl;
+    // int arr[] = {1, 2, 3, 4, 5};
+    // int *arr_ptr = arr; // Pointer to the first element of the array
+    // cout << *arr_ptr << endl; // Output: 1
+    // cout << arr_ptr << endl;
+    // arr_ptr++;                // Move the pointer to the next element
+    // cout << *arr_ptr << endl; // Output: 2
+    // cout << arr_ptr << endl;
+    // arr_ptr += 2;             // Move the pointer two elements ahead
+    // cout << *arr_ptr << endl; // Output: 4
+    // cout << arr_ptr << endl;
     return 0;
 }
